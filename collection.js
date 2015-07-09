@@ -120,10 +120,10 @@
 
 
   /**
-  * Clears the collection and starts its loading again
-  *
-  * @return Promise
-  */
+   * Clears the collection and starts its loading again
+   *
+   * @return Promise
+   */
   Collection.prototype.refresh = function() {
     this.length = 0;
     this.loadingState = 'loading';
