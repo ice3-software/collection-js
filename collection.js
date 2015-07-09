@@ -10,12 +10,12 @@
  *
  * @example
  *
- *   $scope.users = new Collection(function(offset) {
- *     return UserService.find(offset);
- *   });
+ * 	$scope.users = new Collection(function(offset) {
+ * 		return UserService.find(offset);
+ *  });
  *  ...
  *
- *  <div class="isa-page" ng-class="{
+ *  <div ng-class="{
  *    'loading-style': users.loadingState === 'loading',
  *    'failed-style': users.loadingState === 'failed'
  *  }" infinite-scroll="users.loadMore()">
