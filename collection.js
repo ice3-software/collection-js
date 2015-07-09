@@ -10,8 +10,8 @@
  *
  * @example
  *
- * 	$scope.users = new Collection(function(offset) {
- * 		return UserService.find(offset);
+ *  $scope.users = new Collection(function(offset) {
+ *    return UserService.find(offset);
  *  });
  *  ...
  *
@@ -23,7 +23,7 @@
  *  </div>
  *
  * @constructor
- *   @param  query  	Function(Number) Promise
+ *   @param  query    Function(Number) Promise
  *   @param  loadNow  Boolean
  *
  * @extends Array
