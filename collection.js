@@ -1,6 +1,6 @@
 
 /**
- * @name isa.Collection
+ * @name Collection
  *
  * @description
  * A collection extends an array with paginated loading methods. This
@@ -23,7 +23,7 @@
  *  </div>
  *
  * @constructor
- *   @param  query  Function(Number) Promise
+ *   @param  query  	Function(Number) Promise
  *   @param  loadNow  Boolean
  *
  * @extends Array
